@@ -1,0 +1,51 @@
+{
+  "name": "qitmeer-bms",
+  "version": "0.1.0",
+  "description": "Qitmeer-BMS: A backstage management system supporting the service of qitmeer official website",
+  "author": "Qitmeer Team <qitmeerteam@gmail.com>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^4.2.9",
+    "@antv/g2plot": "^2.4.25",
+    "@ckeditor/ckeditor5-vue": "^4.0.1",
+    "axios": "^1.1.3",
+    "babel-eslint": "^10.1.0",
+    "ckeditor5-custom-build": "file:./ckeditor5",
+    "compression-webpack-plugin": "^10.0.0",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.0.4",
+    "jsencrypt": "^3.2.1",
+    "md5": "^2.3.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "path-browserify": "^1.0.1",
+    "vue": "^3.2.13",
+    "vue-cropper": "^1.0.5",
+    "vue-i18n": "^9.3.0-beta.16",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-cli-plugin-element-plus": "~0.0.13"
+  }
+}
